@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
@@ -6,13 +7,19 @@ const Header = () => {
     <header>
       <div className='container flex items-center justify-between'>
         <div className='logo'>
-          <Image
+            <Link href={"/"}>
+            <Image
             src="/logo1.png"
-            width={243}
-            height={73}
+            width={233}
+            height={63}
             alt="Logo"
           />
+            </Link>
+          
         </div>
+       
+       
+
       </div>
     </header>
   )
