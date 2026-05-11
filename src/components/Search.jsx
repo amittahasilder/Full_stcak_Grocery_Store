@@ -1,4 +1,7 @@
+import { Button } from '@mui/material';
 import React from 'react'
+import { IoSearchOutline } from "react-icons/io5";
+
 
 const Search = () => {
   return (
@@ -8,6 +11,11 @@ const Search = () => {
         placeholder="Search here..."
         className='w-full h-full bg-transparent outline-none'
       />
+     <button className='w-8 h-8 rounded-full bg-gray-200'>
+         <IoSearchOutline size={30} className='absolute top-5 right-12 z-50' />
+     </button>
+          
+    
     </div>
   )
 }
