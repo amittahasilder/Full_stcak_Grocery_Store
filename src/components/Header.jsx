@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import Search from './Search'
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
           
         </div>
        
-       
+       <Search/>
 
       </div>
     </header>
