@@ -11,8 +11,8 @@ const Search = () => {
         placeholder="Search here..."
         className='w-full h-full bg-transparent outline-none'
       />
-     <button className='w-8 h-8 rounded-full bg-gray-200'>
-         <IoSearchOutline size={30} className='absolute top-5 right-12 z-50' />
+     <button className='w-8 h-8 rounded-full bg-gray-300'>
+         <IoSearchOutline size={30} className='absolute top-6 right-12 z-50' />
      </button>
           
     
